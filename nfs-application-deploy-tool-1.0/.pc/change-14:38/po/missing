@@ -1,0 +1,17 @@
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_command_information_modules.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_container_manage.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_container_manage_createcontains.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_docker_modules.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_dockerbuild_textview.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_image.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_image_pull.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_image_save_load_rmi.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_link.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_new_dockerfile.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_plink.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_select_dockerfile.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_volume.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_volume_backup.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_volume_container_create.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_volume_create.ui
+debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool/ui/nfs_volume_look.ui

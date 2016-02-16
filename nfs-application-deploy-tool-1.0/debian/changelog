@@ -1,0 +1,5 @@
+nfs-application-deploy-tool (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <leilei@nfschina.com>  Tue, 05 Jan 2016 10:10:13 +0800

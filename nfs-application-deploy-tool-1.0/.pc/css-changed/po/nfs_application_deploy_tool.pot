@@ -1,0 +1,976 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-29 14:43+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. printf("opendir is error\n");
+#: ../src/container/nfs_container_manage.c:80
+msgid "No permission to open the file"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:189 ../src/link/nfs_link.c:182
+msgid "please select image name"
+msgstr ""
+
+#. gtk_tree_view_column_set_title (id,_("asdasd"));
+#: ../src/container/nfs_container_manage.c:191
+msgid "gurd contain ID"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:192
+msgid "gurd contain name"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:213
+#: ../src/container/nfs_container_manage.c:902
+msgid "ls gurd contain"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:275
+#: ../src/container/nfs_container_manage.c:315
+#: ../src/container/nfs_container_manage.c:542
+#: ../src/container/nfs_container_manage.c:718
+msgid "Choose a line of content"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:303
+#: ../src/container/nfs_container_manage.c:343
+msgid "Delete success"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:307
+#: ../src/container/nfs_container_manage.c:364
+msgid "Can't delete the running container"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:447
+#: ../src/container/nfs_container_manage.c:566
+#: ../src/container/nfs_container_manage.c:744
+#: ../src/dockerfile/nfs_dockerfile_manage.c:120
+msgid "The image name cannot contain spaces characters"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:452
+#: ../src/container/nfs_container_manage.c:571
+#: ../src/container/nfs_container_manage.c:749
+#: ../src/dockerfile/nfs_dockerfile_manage.c:125
+msgid "The image name cannot is spaces"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:457
+#: ../src/container/nfs_container_manage.c:576
+msgid "contains name not is Spaces and special characters"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:462
+#: ../src/container/nfs_container_manage.c:581
+msgid "contains name is not empty"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:467
+msgid "gurd contains dosomsing is not empty"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:509
+#: ../src/container/nfs_container_manage.c:668 ../src/link/nfs_plink.c:163
+msgid "please input image"
+msgstr ""
+
+#. gtk_label_set_selectable(label11,TRUE);
+#: ../src/container/nfs_container_manage.c:510
+#: ../src/container/nfs_container_manage.c:669 ../src/link/nfs_link.c:183
+#: ../src/link/nfs_plink.c:165
+msgid "please input yourself contains name"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:511
+msgid "please write gurd will what do somthing"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:512
+#: ../src/container/nfs_container_manage.c:670
+#: ../src/container/nfs_container_manage.c:697
+#: ../src/container/nfs_container_manage.c:815 ../src/link/nfs_link.c:186
+#: ../src/link/nfs_plink.c:171
+msgid "sure"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:537
+msgid "already stop contains"
+msgstr ""
+
+#. dialog=gtk_file_chooser_dialog_new(_("Please rename the exported file"),NULL,GTK_FILE_CHOOSER_ACTION_SAVE,GTK_STOCK_CANCEL,GTK_RESPONSE_CANCEL,GTK_STOCK_SAVE,
+#. GTK_RESPONSE_OK,NULL);
+#: ../src/container/nfs_container_manage.c:697
+msgid "Please rename the exported file"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:697
+#: ../src/container/nfs_container_manage.c:815
+msgid "取消"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:755
+msgid "label name is not spacechar"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:760
+msgid "label name is not empty"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:768
+msgid "import successfull"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:793
+msgid "please write import new image name"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:794
+msgid "please write import new image label_name"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:815
+msgid "please select import files"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:863
+msgid "contians manage"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:879
+msgid "Mirror image"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:889
+msgid "name_colum"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:894
+msgid "starting contain and enter"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:896
+msgid "stop contian"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:897
+msgid "create gurd contian"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:898
+msgid "create contian"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:899
+msgid "export"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:901
+msgid "ls starting contain"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:903
+msgid "dele on contian"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:904
+msgid "dele mul contians"
+msgstr ""
+
+#: ../src/container/nfs_container_manage.c:905
+msgid "import"
+msgstr ""
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:131
+#, c-format
+msgid "please sure Dockerfile path:%s"
+msgstr ""
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:222
+msgid "Please choose to open the file"
+msgstr ""
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:229
+msgid "Failed to open file"
+msgstr ""
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:287
+#: ../src/dockerfile/nfs_dockerfile_manage.c:394
+msgid "The contents of the change,not or do quit"
+msgstr ""
+
+#. FILE *fp;
+#: ../src/dockerfile/nfs_dockerfile_manage.c:310
+msgid "Please enter the name of the save file"
+msgstr ""
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:316
+msgid "Save success"
+msgstr ""
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:419
+#, c-format
+msgid "Number of rows: %10d    Number of column: %10d"
+msgstr ""
+
+#: ../src/image/nfs_image.c:80
+msgid "image manage"
+msgstr ""
+
+#: ../src/image/nfs_image.c:82
+msgid "look up image(image)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:83
+msgid "load image(load)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:84
+msgid "save image(save)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:85
+msgid "pull image(pull)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:86
+msgid "remove image(rmi)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:87
+msgid "tag image(tag)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:88
+msgid "commit image(commit)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:89
+msgid "build image(build)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:145
+msgid "popen error!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:153
+msgid "fread error!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:185 ../src/image/nfs_image.c:1311
+#, c-format
+msgid "the pull_file opened failed %s\n"
+msgstr ""
+
+#: ../src/image/nfs_image.c:203
+msgid "download image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:205 ../src/image/nfs_image.c:320
+msgid "please input the name of image you want to download"
+msgstr ""
+
+#: ../src/image/nfs_image.c:206
+msgid "please input the name of image you want to search"
+msgstr ""
+
+#: ../src/image/nfs_image.c:207
+msgid "home page"
+msgstr ""
+
+#: ../src/image/nfs_image.c:208
+msgid "previous page"
+msgstr ""
+
+#: ../src/image/nfs_image.c:209
+msgid "next page"
+msgstr ""
+
+#: ../src/image/nfs_image.c:234 ../src/image/nfs_image.c:682
+msgid "NUM"
+msgstr ""
+
+#: ../src/image/nfs_image.c:235
+msgid "NAME"
+msgstr ""
+
+#: ../src/image/nfs_image.c:236
+msgid "DESCRIPTION"
+msgstr ""
+
+#: ../src/image/nfs_image.c:237
+msgid "STARS"
+msgstr ""
+
+#: ../src/image/nfs_image.c:238
+msgid "OFFICIAL"
+msgstr ""
+
+#: ../src/image/nfs_image.c:239
+msgid "AUTOMATED"
+msgstr ""
+
+#: ../src/image/nfs_image.c:385
+msgid "download failed，please try again!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:416
+msgid "downloag successfully，you could look for it outside"
+msgstr ""
+
+#: ../src/image/nfs_image.c:438
+msgid "please input the name of image you want to search first!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:458 ../src/image/nfs_image.c:1266
+#: ../src/image/nfs_image.c:1431
+msgid "fread failed, please try again!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:616
+msgid "look up images"
+msgstr ""
+
+#: ../src/image/nfs_image.c:633 ../src/image/nfs_image.c:821
+msgid "NUMBER"
+msgstr ""
+
+#: ../src/image/nfs_image.c:634 ../src/image/nfs_image.c:822
+msgid "REPOSTORY"
+msgstr ""
+
+#: ../src/image/nfs_image.c:635 ../src/image/nfs_image.c:823
+msgid "TAGS"
+msgstr ""
+
+#: ../src/image/nfs_image.c:636 ../src/image/nfs_image.c:824
+msgid "IMAGE_ID"
+msgstr ""
+
+#: ../src/image/nfs_image.c:637 ../src/image/nfs_image.c:825
+msgid "CREATED"
+msgstr ""
+
+#: ../src/image/nfs_image.c:638 ../src/image/nfs_image.c:826
+msgid "SIZE"
+msgstr ""
+
+#: ../src/image/nfs_image.c:651
+#, c-format
+msgid "Couldn't open remove builder file: %s"
+msgstr ""
+
+#: ../src/image/nfs_image.c:663
+msgid "please choose the image you want to delete"
+msgstr ""
+
+#: ../src/image/nfs_image.c:664
+msgid "the image you will delete:"
+msgstr ""
+
+#: ../src/image/nfs_image.c:673
+msgid "remove image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:683
+msgid "IMAGE"
+msgstr ""
+
+#: ../src/image/nfs_image.c:684
+msgid "IMAGE ID"
+msgstr ""
+
+#: ../src/image/nfs_image.c:728 ../src/image/nfs_image.c:872
+#: ../src/image/nfs_image.c:1240
+msgid "you have chosen none of image!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:744
+msgid "the image you have chosen removes successfully ^_^"
+msgstr ""
+
+#: ../src/image/nfs_image.c:775 ../src/volume/nfs_volume.c:53
+#: ../src/volume/nfs_volume.c:957
+#, c-format
+msgid "Couldn't load builder file: %s"
+msgstr ""
+
+#: ../src/image/nfs_image.c:789
+msgid "please choose the image you want to save"
+msgstr ""
+
+#: ../src/image/nfs_image.c:791
+msgid "please input the name of image you want to save"
+msgstr ""
+
+#: ../src/image/nfs_image.c:795
+msgid "save image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:849
+#, c-format
+msgid "the image you have chosen:<b>%s</b>"
+msgstr ""
+
+#: ../src/image/nfs_image.c:865
+msgid "please input the name of image you want to save first"
+msgstr ""
+
+#: ../src/image/nfs_image.c:895
+msgid "save successfully ^_^"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1038
+msgid "load image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1041
+msgid "please choose the image you want to load"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1042 ../src/image/nfs_image.c:1212
+msgid "the image you have chosen: "
+msgstr ""
+
+#: ../src/image/nfs_image.c:1057
+msgid "have no tar to load，please create it first！"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1065 ../src/image/nfs_image.c:1353
+#: ../src/volume/nfs_volume.c:342 ../src/volume/nfs_volume.c:1034
+#: ../src/volume/nfs_volume.c:1426
+msgid "Num"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1066
+msgid "Tar"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1088
+#, c-format
+msgid "the tar you have chosen :<b>%s</b>"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1112
+msgid "you have no tar to choose!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1128
+msgid "load succussfully ^_^"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1208
+msgid "tag image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1210
+msgid "please tag the image you want to choose"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1211
+msgid ""
+"input the name of new image when you have chosen the image, separated by a "
+"colon(name:tag)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1213
+msgid ""
+"Note: if you have taged successfully, it will not cover the original image, "
+"but create a new image you have named "
+msgstr ""
+
+#: ../src/image/nfs_image.c:1250
+msgid "pleage input the name of new image!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1282
+msgid "tag successfully ^_^"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1327
+msgid "commit image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1329
+msgid "please choose the container that in order to commit new image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1330
+msgid "please input the author(optonal)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1331
+msgid "please input the message(optional)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1332 ../src/image/nfs_image.c:1413
+msgid "please input the name of new image, separated by colon(name:tag)"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1333
+msgid "the container you have chosen"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1354 ../src/volume/nfs_volume.c:343
+msgid "Name"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1355
+msgid "ID"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1356 ../src/volume/nfs_volume.c:344
+msgid "Image"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1405
+msgid "please choose the container you want to commit!"
+msgstr ""
+
+#: ../src/image/nfs_image.c:1447
+msgid "commit succussfully ^_^\n"
+msgstr ""
+
+#: ../src/link/nfs_link.c:106 ../src/link/nfs_plink.c:115
+msgid "image not is empty"
+msgstr ""
+
+#: ../src/link/nfs_link.c:111
+msgid "contain is not empty"
+msgstr ""
+
+#: ../src/link/nfs_link.c:125 ../src/link/nfs_plink.c:109
+msgid "Custom container name can not be empty"
+msgstr ""
+
+#: ../src/link/nfs_link.c:131
+msgid "link contains is not empoty"
+msgstr ""
+
+#: ../src/link/nfs_link.c:172
+msgid "contain connect"
+msgstr ""
+
+#: ../src/link/nfs_link.c:184
+msgid "please select link contain name"
+msgstr ""
+
+#: ../src/link/nfs_link.c:185
+msgid "please select link contain alias name"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:41
+msgid "you must start docker firsr to continue"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:104
+msgid "Port number can not be empty"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:162
+msgid "External access"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:166
+msgid "Please enter the mapping port number"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:167
+msgid "image                             tag"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:168
+msgid "Writing format:"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:169
+msgid "Port changes or additions:"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:173
+msgid ""
+"<span foreground=\"#000000\">-P(Random mapping port).-p 500:22 (put host 50 "
+"port to contain 22).</span>"
+msgstr ""
+
+#: ../src/link/nfs_plink.c:174
+msgid ""
+"<span foreground=\"#000000\">Example:put A contain export,then import A "
+"produce a image</span>"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:20
+msgid "it is not a command or start failed"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:65
+msgid "please start up Docker first"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:125
+msgid "look up image"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:126
+msgid "Docker info"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:127
+msgid "look up container"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:128
+msgid "executing"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:129
+msgid "look up version"
+msgstr ""
+
+#: ../src/module/nfs_command_information_modules.c:130
+msgid "input command"
+msgstr ""
+
+#. gtk_entry_set_text (GTK_ENTRY(entry11),"2222");
+#: ../src/module/nfs_command_information_modules.c:132
+msgid "command info"
+msgstr ""
+
+#. 添加用户终端
+#: ../src/terminal/nfs_terminal.c:192
+msgid "Terminal"
+msgstr ""
+
+#. 添加显示结果终端
+#: ../src/terminal/nfs_terminal.c:222
+msgid "Executing"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:63
+msgid "data manage"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:76 ../src/volume/nfs_volume.c:318
+msgid "look up datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:77 ../src/volume/nfs_volume.c:119
+msgid "create datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:78 ../src/volume/nfs_volume.c:741
+msgid "look up datavolume container"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:79 ../src/volume/nfs_volume.c:571
+msgid "create datavolume container"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:80 ../src/volume/nfs_volume.c:977
+msgid "backup datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:81
+msgid "recovrty datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:82 ../src/volume/nfs_volume.c:1761
+msgid "transfer datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:83
+msgid "look all datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:132
+msgid "the name of container:"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:133
+msgid "the name of datavolume:"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:134
+msgid "mount local directory as a datavolume:"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:135
+msgid "it could only include numbers,letters and \"-\",\"_\",\".\""
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:136
+msgid "choose image"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:137
+msgid ""
+"could mount many or null, for exaple\n"
+" \t\t\t\t\t\t\t\t\t\t\t/test:/mytest mount local directory to new \t\t\t\t\t"
+"\t\t\t\t\t\tdirectory\n"
+" if directory not exists, create it(optional)\n"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:140
+msgid ""
+"datavolume must add absolute path, for example:/test\n"
+" \t\t\t\t\t\t\t\t\t\t\tif add many datavolumes, separated by space"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:207 ../src/volume/nfs_volume.c:671
+#: ../src/volume/nfs_volume.c:1242
+msgid "please choose image!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:235
+msgid "please input container name!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:257
+msgid "please imput datavolume name!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:322 ../src/volume/nfs_volume.c:565
+msgid "select one or more datavolumes"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:323
+msgid "remove the datavolume you select"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:324
+msgid "eopn the datavolume you select"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:325 ../src/volume/nfs_volume.c:886
+#: ../src/volume/nfs_volume.c:1539
+msgid "a key to select all"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:345
+msgid "create data"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:346
+msgid "mount data"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:347
+msgid "local data"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:358
+msgid "Choice"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:566
+msgid "the name of datavolume container"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:567 ../src/volume/nfs_volume.c:981
+msgid "select images"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:568
+msgid "rebuild the datavolume"
+msgstr ""
+
+#. gtk_widget_set_tooltip_text(entry, "只能包含数字，字母以及\"-\",\"_\",\".\"");
+#: ../src/volume/nfs_volume.c:573
+msgid "it could only include number,letters and \"-\",\"_\",\".\""
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:601
+msgid "please choose the datavolume first！"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:608
+msgid "there is no datavolume to choose, please create it first！"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:638
+msgid "please input the name of datavolume container!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:786
+msgid "please choose the data you want to delete"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:844 ../src/volume/nfs_volume.c:850
+msgid "please choose the data you want to open"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:876 ../src/volume/nfs_volume.c:1532
+msgid "a key to cancel all"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:925
+msgid "the datavolume creates successfully!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:926
+msgid "whether to open datavolume？"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:935
+#, c-format
+msgid "popen failed!  %s   %d"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:979 ../src/volume/nfs_volume.c:1763
+msgid "select one or more datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:980
+msgid "the datavolume you have chosen to backup"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:982
+msgid "input the name of new tar(no suffix)"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:983
+msgid "please input the name of new directory"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:984
+msgid "lookup the datavolume you have backuped"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:985
+msgid "a key ro select all"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1035
+msgid "Container Name"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1036
+msgid "Create DataVolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1037
+msgid "Mount DataVolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1038
+msgid "Local DataVolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1047 ../src/volume/nfs_volume.c:1437
+msgid "choice"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1084
+msgid "backup successfully  ^_^"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1158
+msgid "you have chosen none, please choose first!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1171
+msgid "have none of datavolume, please create it first！"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1264
+msgid "please input the name of tar!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1273
+msgid "the acronym of name could only be number or letter"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1284
+msgid "the name could only contains number,letter or underline"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1322
+msgid "the name exists, please change a name"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1398
+msgid "recovery datavolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1400
+msgid "select one or more datavolume to recovery"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1401
+msgid "the recovery datavolume you have chosen"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1402 ../src/volume/nfs_volume.c:1765
+msgid "input the name of new container"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1403
+msgid "look up the datavolume you have recoveried"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1421
+msgid "have none datavolume to recovery, please backup first"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1427
+msgid "The name of tar"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1428
+msgid "DataVolume"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1584
+msgid "datavolume recovery successfully ^_^"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1605
+msgid "please choose the recovery datavolume first!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1607
+msgid "please choose the transfer datavolume first!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1631
+msgid "please input the name of datavolume container first!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1640
+msgid "you could input at most one name"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1764
+msgid "the datavolume you have chosen"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1766
+msgid "look up the datavolume that have transfered"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1781
+msgid "have none datavolume to transfer, please backup first"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1844
+msgid "please input the name of new directory!!!"
+msgstr ""
+
+#: ../src/volume/nfs_volume.c:1913
+msgid "look up all datavolumes"
+msgstr ""

@@ -1,0 +1,1046 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-05 09:49+0800\n"
+"PO-Revision-Date: 2016-01-05 09:28+0800\n"
+"Last-Translator: qingzhan <qingzhan@nfschina.com>\n"
+"Language-Team: team <LL@li.org>\n"
+"Language: chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../src/assistant/nfs_assistant.c:38
+msgid "start docker daemon failed, please restart the program!"
+msgstr "docker守护进程启动失败，请关闭程序重新尝试！"
+
+#: ../src/assistant/nfs_assistant.c:92
+#, c-format
+msgid "EXECUTING\n"
+msgstr "执行开始\n"
+
+#: ../src/assistant/nfs_assistant.c:134
+#, c-format
+msgid "Start Wizard (%d of %d)"
+msgstr "启动向导 (%d of %d)"
+
+#: ../src/assistant/nfs_assistant.c:147
+msgid "this is a project that use gtk3+ to make package of docker commands "
+msgstr "这是一个基于gtk3+、用于docker命令封装的一个程序"
+
+#: ../src/assistant/nfs_assistant.c:152
+msgid "The page of introduction"
+msgstr "介绍页"
+
+#: ../src/assistant/nfs_assistant.c:164 ../src/link/nfs_plink.c:41
+msgid "you must start docker firsr to continue"
+msgstr "你必须先确认启动docker"
+
+#: ../src/assistant/nfs_assistant.c:165
+msgid "agree to start"
+msgstr "确认启动"
+
+#: ../src/assistant/nfs_assistant.c:180
+msgid "The page of selection"
+msgstr "选择页"
+
+#: ../src/assistant/nfs_assistant.c:189
+msgid "OK,now you can have a try!"
+msgstr "现在，你可以开始尝试了！"
+
+#: ../src/assistant/nfs_assistant.c:193
+msgid "the page of confirmation"
+msgstr "确认页"
+
+#: ../src/assistant/nfs_assistant.c:207
+msgid "The page of applying changes"
+msgstr "应用页"
+
+#. printf("opendir is error\n");
+#: ../src/container/nfs_container_manage.c:80
+msgid "No permission to open the file"
+msgstr "无权限打开文件"
+
+#: ../src/container/nfs_container_manage.c:189 ../src/link/nfs_link.c:182
+msgid "please select image name"
+msgstr "请选择基于的镜像"
+
+#. gtk_tree_view_column_set_title (id,_("asdasd"));
+#: ../src/container/nfs_container_manage.c:191
+msgid "gurd contain ID"
+msgstr "守护容器的ID"
+
+#: ../src/container/nfs_container_manage.c:192
+msgid "gurd contain name"
+msgstr "守护容器的名字"
+
+#: ../src/container/nfs_container_manage.c:213
+#: ../src/container/nfs_container_manage.c:902
+msgid "ls gurd contain"
+msgstr "查看守护运行容器"
+
+#: ../src/container/nfs_container_manage.c:275
+#: ../src/container/nfs_container_manage.c:315
+#: ../src/container/nfs_container_manage.c:542
+#: ../src/container/nfs_container_manage.c:718
+msgid "Choose a line of content"
+msgstr "请选择有内容的一行"
+
+#: ../src/container/nfs_container_manage.c:303
+#: ../src/container/nfs_container_manage.c:343
+msgid "Delete success"
+msgstr "删除成功"
+
+#: ../src/container/nfs_container_manage.c:307
+#: ../src/container/nfs_container_manage.c:364
+msgid "Can't delete the running container"
+msgstr "不能删除正在运行的容器"
+
+#: ../src/container/nfs_container_manage.c:447
+#: ../src/container/nfs_container_manage.c:566
+#: ../src/container/nfs_container_manage.c:744
+#: ../src/dockerfile/nfs_dockerfile_manage.c:120
+msgid "The image name cannot contain spaces characters"
+msgstr "The image name cannot contain spaces characters"
+
+#: ../src/container/nfs_container_manage.c:452
+#: ../src/container/nfs_container_manage.c:571
+#: ../src/container/nfs_container_manage.c:749
+#: ../src/dockerfile/nfs_dockerfile_manage.c:125
+msgid "The image name cannot is spaces"
+msgstr "镜像的名字不能为空"
+
+#: ../src/container/nfs_container_manage.c:457
+#: ../src/container/nfs_container_manage.c:576
+msgid "contains name not is Spaces and special characters"
+msgstr "容器的名字不能包含空格及特殊字符"
+
+#: ../src/container/nfs_container_manage.c:462
+#: ../src/container/nfs_container_manage.c:581
+msgid "contains name is not empty"
+msgstr "容器的名字不能为空"
+
+#: ../src/container/nfs_container_manage.c:467
+msgid "gurd contains dosomsing is not empty"
+msgstr "守护运行容器的动作不能为空"
+
+#: ../src/container/nfs_container_manage.c:509
+#: ../src/container/nfs_container_manage.c:668 ../src/link/nfs_plink.c:163
+msgid "please input image"
+msgstr "请输入基于的镜像"
+
+#. gtk_label_set_selectable(label11,TRUE);
+#: ../src/container/nfs_container_manage.c:510
+#: ../src/container/nfs_container_manage.c:669 ../src/link/nfs_link.c:183
+#: ../src/link/nfs_plink.c:165
+msgid "please input yourself contains name"
+msgstr "请输入自定义容器名字"
+
+#: ../src/container/nfs_container_manage.c:511
+msgid "please write gurd will what do somthing"
+msgstr "请输入守护容器启动后的动作"
+
+#: ../src/container/nfs_container_manage.c:512
+#: ../src/container/nfs_container_manage.c:670
+#: ../src/container/nfs_container_manage.c:697
+#: ../src/container/nfs_container_manage.c:815 ../src/link/nfs_link.c:186
+#: ../src/link/nfs_plink.c:171
+msgid "sure"
+msgstr "确定"
+
+#: ../src/container/nfs_container_manage.c:537
+msgid "already stop contains"
+msgstr "已终止容器"
+
+#. dialog=gtk_file_chooser_dialog_new(_("Please rename the exported file"),NULL,GTK_FILE_CHOOSER_ACTION_SAVE,GTK_STOCK_CANCEL,GTK_RESPONSE_CANCEL,GTK_STOCK_SAVE,
+#. GTK_RESPONSE_OK,NULL);
+#: ../src/container/nfs_container_manage.c:697
+msgid "Please rename the exported file"
+msgstr "请重新命名导出的文件"
+
+#: ../src/container/nfs_container_manage.c:697
+#: ../src/container/nfs_container_manage.c:815
+msgid "取消"
+msgstr "取消"
+
+#: ../src/container/nfs_container_manage.c:755
+msgid "label name is not spacechar"
+msgstr "标签的名字不能包含空格字符"
+
+#: ../src/container/nfs_container_manage.c:760
+msgid "label name is not empty"
+msgstr "标签的名字不能包含空格字符"
+
+#: ../src/container/nfs_container_manage.c:768
+msgid "import successfull"
+msgstr "导入成功"
+
+#: ../src/container/nfs_container_manage.c:793
+msgid "please write import new image name"
+msgstr "请输入导入新镜像名字"
+
+#: ../src/container/nfs_container_manage.c:794
+msgid "please write import new image label_name"
+msgstr "请输入导入新镜像标签"
+
+#: ../src/container/nfs_container_manage.c:815
+msgid "please select import files"
+msgstr "请选择导入的文件"
+
+#: ../src/container/nfs_container_manage.c:863
+msgid "contians manage"
+msgstr "容器管理"
+
+#: ../src/container/nfs_container_manage.c:879
+msgid "Mirror image"
+msgstr "基于的镜像"
+
+#: ../src/container/nfs_container_manage.c:889
+msgid "name_colum"
+msgstr "名字"
+
+#: ../src/container/nfs_container_manage.c:894
+msgid "starting contain and enter"
+msgstr "启动并进入容器"
+
+#: ../src/container/nfs_container_manage.c:896
+msgid "stop contian"
+msgstr "终止容器"
+
+#: ../src/container/nfs_container_manage.c:897
+msgid "create gurd contian"
+msgstr "创建守护运行容器"
+
+#: ../src/container/nfs_container_manage.c:898
+msgid "create contian"
+msgstr "创建容器"
+
+#: ../src/container/nfs_container_manage.c:899
+msgid "export"
+msgstr "导出"
+
+#: ../src/container/nfs_container_manage.c:901
+msgid "ls starting contain"
+msgstr "查看启动的容器"
+
+#: ../src/container/nfs_container_manage.c:903
+msgid "dele on contian"
+msgstr "删除单个容器"
+
+#: ../src/container/nfs_container_manage.c:904
+msgid "dele mul contians"
+msgstr "删除所有容器"
+
+#: ../src/container/nfs_container_manage.c:905
+msgid "import"
+msgstr "导入"
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:131
+#, c-format
+msgid "please sure Dockerfile path:%s"
+msgstr "请确认Dockerfile的路径:%s"
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:222
+msgid "Please choose to open the file"
+msgstr "请选择打开的文件"
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:229
+msgid "Failed to open file"
+msgstr "打开文件失败"
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:287
+#: ../src/dockerfile/nfs_dockerfile_manage.c:394
+msgid "The contents of the change,not or do quit"
+msgstr "内容有改动未做保存,是否退出"
+
+#. FILE *fp;
+#: ../src/dockerfile/nfs_dockerfile_manage.c:310
+msgid "Please enter the name of the save file"
+msgstr "请输入保存文件的名字"
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:316
+msgid "Save success"
+msgstr "保存成功"
+
+#: ../src/dockerfile/nfs_dockerfile_manage.c:419
+#, c-format
+msgid "Number of rows: %10d    Number of column: %10d"
+msgstr "当前位置的行数: %10d    当前位置的列数: %10d"
+
+#: ../src/image/nfs_image.c:90
+msgid "image manage"
+msgstr "镜像管理"
+
+#: ../src/image/nfs_image.c:92
+msgid "look up image(image)"
+msgstr "查看镜像(image)"
+
+#: ../src/image/nfs_image.c:93
+msgid "load image(load)"
+msgstr "载入镜像(load)"
+
+#: ../src/image/nfs_image.c:94
+msgid "save image(save)"
+msgstr "保存镜像(save)"
+
+#: ../src/image/nfs_image.c:95
+msgid "pull image(pull)"
+msgstr "下载镜像(pull)"
+
+#: ../src/image/nfs_image.c:96
+msgid "remove image(rmi)"
+msgstr "删除镜像(rmi)"
+
+#: ../src/image/nfs_image.c:97
+msgid "tag image(tag)"
+msgstr "标记镜像(tag)"
+
+#: ../src/image/nfs_image.c:98
+msgid "commit image(commit)"
+msgstr "拓展镜像(commit)"
+
+#: ../src/image/nfs_image.c:99
+msgid "build image(build)"
+msgstr "根据docker创建镜像(build)"
+
+#: ../src/image/nfs_image.c:155
+msgid "popen error!"
+msgstr "打开失败！"
+
+#: ../src/image/nfs_image.c:165
+msgid "fread error!"
+msgstr "读取失败！"
+
+#: ../src/image/nfs_image.c:197 ../src/image/nfs_image.c:1330
+#, c-format
+msgid "the pull_file opened failed %s\n"
+msgstr "文件打开失败 %s\n"
+
+#: ../src/image/nfs_image.c:215
+msgid "download image"
+msgstr "下载镜像"
+
+#: ../src/image/nfs_image.c:217 ../src/image/nfs_image.c:332
+msgid "please input the name of image you want to download"
+msgstr "请输入想要下载镜像的名称"
+
+#: ../src/image/nfs_image.c:218
+msgid "please input the name of image you want to search"
+msgstr "请输入想要查找的镜像名称"
+
+#: ../src/image/nfs_image.c:219
+msgid "home page"
+msgstr "首页"
+
+#: ../src/image/nfs_image.c:220
+msgid "previous page"
+msgstr "上一页"
+
+#: ../src/image/nfs_image.c:221
+msgid "next page"
+msgstr "下一页"
+
+#: ../src/image/nfs_image.c:246 ../src/image/nfs_image.c:700
+msgid "NUM"
+msgstr "序号"
+
+#: ../src/image/nfs_image.c:247
+msgid "NAME"
+msgstr "名称"
+
+#: ../src/image/nfs_image.c:248
+msgid "DESCRIPTION"
+msgstr "描述"
+
+#: ../src/image/nfs_image.c:249
+msgid "STARS"
+msgstr "星级"
+
+#: ../src/image/nfs_image.c:250
+msgid "OFFICIAL"
+msgstr "官方"
+
+#: ../src/image/nfs_image.c:251
+msgid "AUTOMATED"
+msgstr "自建"
+
+#: ../src/image/nfs_image.c:397
+msgid "download failed，please try again!"
+msgstr "下载失败，请重试！"
+
+#: ../src/image/nfs_image.c:411 ../src/image/nfs_image.c:476
+#: ../src/image/nfs_image.c:1285 ../src/image/nfs_image.c:1451
+msgid "fread failed, please try again!"
+msgstr "文件读取失败，请重新尝试！"
+
+#: ../src/image/nfs_image.c:433
+msgid "downloag successfully，you could look for it outside"
+msgstr "下载成功，可在查看镜像里查看"
+
+#: ../src/image/nfs_image.c:455
+msgid "please input the name of image you want to search first!"
+msgstr "请先输入想要查询的镜像名称"
+
+#: ../src/image/nfs_image.c:634
+msgid "look up images"
+msgstr "查看镜像"
+
+#: ../src/image/nfs_image.c:651 ../src/image/nfs_image.c:839
+msgid "NUMBER"
+msgstr "序号"
+
+#: ../src/image/nfs_image.c:652 ../src/image/nfs_image.c:840
+msgid "REPOSTORY"
+msgstr "名称"
+
+#: ../src/image/nfs_image.c:653 ../src/image/nfs_image.c:841
+msgid "TAGS"
+msgstr "标签"
+
+#: ../src/image/nfs_image.c:654 ../src/image/nfs_image.c:842
+msgid "IMAGE_ID"
+msgstr "镜像ID"
+
+#: ../src/image/nfs_image.c:655 ../src/image/nfs_image.c:843
+msgid "CREATED"
+msgstr "创建时间"
+
+#: ../src/image/nfs_image.c:656 ../src/image/nfs_image.c:844
+msgid "SIZE"
+msgstr "大小"
+
+#: ../src/image/nfs_image.c:669
+#, c-format
+msgid "Couldn't open remove builder file: %s"
+msgstr "打开文件失败: %s"
+
+#: ../src/image/nfs_image.c:681
+msgid "please choose the image you want to delete"
+msgstr "请选择想要删除的镜像"
+
+#: ../src/image/nfs_image.c:682
+msgid "the image you will delete:"
+msgstr "要删除的镜像"
+
+#: ../src/image/nfs_image.c:691
+msgid "remove image"
+msgstr "删除镜像"
+
+#: ../src/image/nfs_image.c:701
+msgid "IMAGE"
+msgstr "镜像"
+
+#: ../src/image/nfs_image.c:702
+msgid "IMAGE ID"
+msgstr "镜像ID"
+
+#: ../src/image/nfs_image.c:746 ../src/image/nfs_image.c:890
+#: ../src/image/nfs_image.c:1258
+msgid "you have chosen none of image!"
+msgstr "没有选择任何的镜像"
+
+#: ../src/image/nfs_image.c:762
+msgid "the image you have chosen removes successfully ^_^"
+msgstr "镜像删除成功^_^"
+
+#: ../src/image/nfs_image.c:793 ../src/volume/nfs_volume.c:65
+#: ../src/volume/nfs_volume.c:969
+#, c-format
+msgid "Couldn't load builder file: %s"
+msgstr "不能载入文件:%s"
+
+#: ../src/image/nfs_image.c:807
+msgid "please choose the image you want to save"
+msgstr "请选择想要保存的镜像"
+
+#: ../src/image/nfs_image.c:809
+msgid "please input the name of image you want to save"
+msgstr "请输入要保存的镜像名称"
+
+#: ../src/image/nfs_image.c:813
+msgid "save image"
+msgstr "保存镜像"
+
+#: ../src/image/nfs_image.c:867
+#, c-format
+msgid "the image you have chosen:<b>%s</b>"
+msgstr "选择的镜像名称:</b>%s</b>"
+
+#: ../src/image/nfs_image.c:883
+msgid "please input the name of image you want to save first"
+msgstr "请先输入想要保存的镜像名称"
+
+#: ../src/image/nfs_image.c:913
+msgid "save successfully ^_^"
+msgstr "保存成功^_^"
+
+#: ../src/image/nfs_image.c:1056
+msgid "load image"
+msgstr "载入镜像"
+
+#: ../src/image/nfs_image.c:1059
+msgid "please choose the image you want to load"
+msgstr "请选择想要载入的镜像"
+
+#: ../src/image/nfs_image.c:1060 ../src/image/nfs_image.c:1230
+msgid "the image you have chosen: "
+msgstr "已经选择的镜像:"
+
+#: ../src/image/nfs_image.c:1075
+msgid "have no tar to load，please create it first！"
+msgstr "没有可载入的tar包，请先创建tar包!"
+
+#: ../src/image/nfs_image.c:1083 ../src/image/nfs_image.c:1372
+#: ../src/volume/nfs_volume.c:354 ../src/volume/nfs_volume.c:1046
+#: ../src/volume/nfs_volume.c:1439
+msgid "Num"
+msgstr "序号"
+
+#: ../src/image/nfs_image.c:1084
+msgid "Tar"
+msgstr "tar包"
+
+#: ../src/image/nfs_image.c:1106
+#, c-format
+msgid "the tar you have chosen :<b>%s</b>"
+msgstr "选择的tar包名称:</b>%s</b>"
+
+#: ../src/image/nfs_image.c:1130
+msgid "you have no tar to choose!"
+msgstr "没有选择任何的tar包"
+
+#: ../src/image/nfs_image.c:1146
+msgid "load succussfully ^_^"
+msgstr "载入成功^_^"
+
+#: ../src/image/nfs_image.c:1226
+msgid "tag image"
+msgstr "标记镜像"
+
+#: ../src/image/nfs_image.c:1228
+msgid "please tag the image you want to choose"
+msgstr "请先选择想要标记的镜像"
+
+#: ../src/image/nfs_image.c:1229
+msgid ""
+"input the name of new image when you have chosen the image, separated by a "
+"colon(name:tag)"
+msgstr ""
+"输入标记后的名称和标签\n"
+"之间用冒号隔开(名称:标签)"
+
+#: ../src/image/nfs_image.c:1231
+msgid ""
+"Note: if you have taged successfully, it will not cover the original image, "
+"but create a new image you have named "
+msgstr "注:标记镜像成功后并不会覆盖原镜像，而是产生一个你命名的镜像"
+
+#: ../src/image/nfs_image.c:1268
+msgid "pleage input the name of new image!"
+msgstr "请输入新镜像的名称"
+
+#: ../src/image/nfs_image.c:1301
+msgid "tag successfully ^_^"
+msgstr "标记成功^_^"
+
+#: ../src/image/nfs_image.c:1346
+msgid "commit image"
+msgstr "拓展镜像"
+
+#: ../src/image/nfs_image.c:1348
+msgid "please choose the container that in order to commit new image"
+msgstr "请选择要根据容器生成镜像的容器"
+
+#: ../src/image/nfs_image.c:1349
+msgid "please input the author(optonal)"
+msgstr "请输入作者名称(选填)"
+
+#: ../src/image/nfs_image.c:1350
+msgid "please input the message(optional)"
+msgstr "请输入提交的信息(选填)"
+
+#: ../src/image/nfs_image.c:1351 ../src/image/nfs_image.c:1432
+msgid "please input the name of new image, separated by colon(name:tag)"
+msgstr ""
+"请输入新镜像名称和标签\n"
+"用冒号分割(名字:标签)"
+
+#: ../src/image/nfs_image.c:1352
+msgid "the container you have chosen"
+msgstr "已选择的镜像"
+
+#: ../src/image/nfs_image.c:1373 ../src/volume/nfs_volume.c:355
+msgid "Name"
+msgstr "名称"
+
+#: ../src/image/nfs_image.c:1374
+msgid "ID"
+msgstr "ID"
+
+#: ../src/image/nfs_image.c:1375 ../src/volume/nfs_volume.c:356
+msgid "Image"
+msgstr "镜像"
+
+#: ../src/image/nfs_image.c:1424
+msgid "please choose the container you want to commit!"
+msgstr "请选择要拓展的容器！"
+
+#: ../src/image/nfs_image.c:1467
+msgid "commit succussfully ^_^\n"
+msgstr "拓展镜像成功\n"
+
+#: ../src/link/nfs_link.c:106 ../src/link/nfs_plink.c:115
+msgid "image not is empty"
+msgstr "镜像不能为空"
+
+#: ../src/link/nfs_link.c:111
+msgid "contain is not empty"
+msgstr "容器不能为空"
+
+#: ../src/link/nfs_link.c:125 ../src/link/nfs_plink.c:109
+msgid "Custom container name can not be empty"
+msgstr "自定义容器名字不能为空"
+
+#: ../src/link/nfs_link.c:131
+msgid "link contains is not empoty"
+msgstr "要连接容器的别名不能为空"
+
+#: ../src/link/nfs_link.c:172
+msgid "contain connect"
+msgstr "容器互联"
+
+#: ../src/link/nfs_link.c:184
+msgid "please select link contain name"
+msgstr "请选择要链接的容器的名字"
+
+#: ../src/link/nfs_link.c:185
+msgid "please select link contain alias name"
+msgstr "请输入要链接的容器的别名"
+
+#: ../src/link/nfs_plink.c:104
+msgid "Port number can not be empty"
+msgstr "端口号不能为空"
+
+#: ../src/link/nfs_plink.c:162
+msgid "External access"
+msgstr "外部访问"
+
+#: ../src/link/nfs_plink.c:166
+msgid "Please enter the mapping port number"
+msgstr "请输入映射端口号"
+
+#: ../src/link/nfs_plink.c:167
+msgid "image                             tag"
+msgstr "镜像\t\t                  标签(tag)"
+
+#: ../src/link/nfs_plink.c:168
+msgid "Writing format:"
+msgstr "书写格式提示:"
+
+#: ../src/link/nfs_plink.c:169
+msgid "Port changes or additions:"
+msgstr "端口的修改或者添加提示:"
+
+#: ../src/link/nfs_plink.c:173
+msgid ""
+"<span foreground=\"#000000\">-P(Random mapping port).-p 500:22 (put host 50 "
+"port to contain 22).</span>"
+msgstr ""
+"<span foreground=\"#000000\">-P(随意的映射端口).-p 500:22 (把主机端口50映射到"
+"容器端口22).</span>"
+
+#: ../src/link/nfs_plink.c:174
+msgid ""
+"<span foreground=\"#000000\">Example:put A contain export,then import A "
+"produce a image</span>"
+msgstr ""
+"<span foreground=\"#000000\">例如:把A容器导出,再导入生成a镜像,根据a镜像重新生"
+"成一个新的B容器,重新指定端口的映射,B容器和A容器只是端口映射不同,其它都相同</"
+"span>"
+
+#: ../src/manage/nfs-application-deploy-tool.c:47
+msgid "please usr root mode to execute it!"
+msgstr "请使用超级权限打开该程序!"
+
+#: ../src/module/nfs_command_information_modules.c:20
+msgid "it is not a command or start failed"
+msgstr "这不是个命令或者命令启动失败"
+
+#: ../src/module/nfs_command_information_modules.c:65
+msgid "please start up Docker first"
+msgstr "请先启动Docker"
+
+#: ../src/module/nfs_command_information_modules.c:125
+msgid "look up image"
+msgstr "查看镜像"
+
+#: ../src/module/nfs_command_information_modules.c:126
+msgid "Docker info"
+msgstr "关于Docker"
+
+#: ../src/module/nfs_command_information_modules.c:127
+msgid "look up container"
+msgstr "查看容器"
+
+#: ../src/module/nfs_command_information_modules.c:128
+msgid "executing"
+msgstr "执行"
+
+#: ../src/module/nfs_command_information_modules.c:129
+msgid "look up version"
+msgstr "查看版本"
+
+#: ../src/module/nfs_command_information_modules.c:130
+msgid "input command"
+msgstr "输入命令"
+
+#. gtk_entry_set_text (GTK_ENTRY(entry11),"2222");
+#: ../src/module/nfs_command_information_modules.c:132
+msgid "command info"
+msgstr "命令信息"
+
+#. 添加用户终端
+#: ../src/terminal/nfs_terminal.c:192
+msgid "Terminal"
+msgstr "终端"
+
+#. 添加显示结果终端
+#: ../src/terminal/nfs_terminal.c:222
+msgid "Executing"
+msgstr "执行"
+
+#: ../src/volume/nfs_volume.c:75
+msgid "data manage"
+msgstr "数据管理"
+
+#: ../src/volume/nfs_volume.c:88 ../src/volume/nfs_volume.c:330
+msgid "look up datavolume"
+msgstr "查看数据卷"
+
+#: ../src/volume/nfs_volume.c:89 ../src/volume/nfs_volume.c:131
+msgid "create datavolume"
+msgstr "创建数据卷"
+
+#: ../src/volume/nfs_volume.c:90 ../src/volume/nfs_volume.c:753
+msgid "look up datavolume container"
+msgstr "查看数据卷容器"
+
+#: ../src/volume/nfs_volume.c:91 ../src/volume/nfs_volume.c:583
+msgid "create datavolume container"
+msgstr "创建数据卷容器"
+
+#: ../src/volume/nfs_volume.c:92 ../src/volume/nfs_volume.c:989
+msgid "backup datavolume"
+msgstr "备份数据卷"
+
+#: ../src/volume/nfs_volume.c:93
+msgid "recovrty datavolume"
+msgstr "恢复数据卷"
+
+#: ../src/volume/nfs_volume.c:94 ../src/volume/nfs_volume.c:1774
+msgid "transfer datavolume"
+msgstr "迁移数据卷"
+
+#: ../src/volume/nfs_volume.c:95
+msgid "look all datavolume"
+msgstr "查看全部数据卷"
+
+#: ../src/volume/nfs_volume.c:144
+msgid "the name of container:"
+msgstr "容器名称:"
+
+#: ../src/volume/nfs_volume.c:145
+msgid "the name of datavolume:"
+msgstr "数据卷名称:"
+
+#: ../src/volume/nfs_volume.c:146
+msgid "mount local directory as a datavolume:"
+msgstr "挂载本地目录为数据卷"
+
+#: ../src/volume/nfs_volume.c:147
+msgid "it could only include numbers,letters and \"-\",\"_\",\".\""
+msgstr "只能包含数字，字母以及\"-\",\"_\",\".\""
+
+#: ../src/volume/nfs_volume.c:148
+msgid "choose image"
+msgstr "选择镜像"
+
+#: ../src/volume/nfs_volume.c:149
+msgid ""
+"could mount many or null, for exaple\n"
+" \t\t\t\t\t\t\t\t\t\t\t/test:/mytest mount local directory to new \t\t\t\t\t"
+"\t\t\t\t\t\tdirectory\n"
+" if directory not exists, create it(optional)\n"
+msgstr ""
+"可挂载多个,可为空 举例如下:\n"
+" /test:/mytest 将本地test目录\n"
+"挂载到新容器的mytest目录\n"
+"\"如果目录不存在就创建目录(选填)\n"
+
+#: ../src/volume/nfs_volume.c:152
+msgid ""
+"datavolume must add absolute path, for example:/test\n"
+" \t\t\t\t\t\t\t\t\t\t\tif add many datavolumes, separated by space"
+msgstr ""
+"数据卷必须添加绝对路径  如: /test\n"
+"\"如果要添加多个数据卷，以空格分隔\")"
+
+#: ../src/volume/nfs_volume.c:219 ../src/volume/nfs_volume.c:683
+#: ../src/volume/nfs_volume.c:1255
+msgid "please choose image!!!"
+msgstr "请选择镜像!!!"
+
+#: ../src/volume/nfs_volume.c:247
+msgid "please input container name!!!"
+msgstr "请输入容器的名称！！！"
+
+#: ../src/volume/nfs_volume.c:269
+msgid "please imput datavolume name!!!"
+msgstr "请输入数据卷的名称！！！"
+
+#: ../src/volume/nfs_volume.c:334 ../src/volume/nfs_volume.c:577
+msgid "select one or more datavolumes"
+msgstr "选择一个或多个数据卷"
+
+#: ../src/volume/nfs_volume.c:335
+msgid "remove the datavolume you select"
+msgstr "删除已选择的数据卷"
+
+#: ../src/volume/nfs_volume.c:336
+msgid "eopn the datavolume you select"
+msgstr "打开已选择的数据卷"
+
+#: ../src/volume/nfs_volume.c:337 ../src/volume/nfs_volume.c:898
+#: ../src/volume/nfs_volume.c:1552
+msgid "a key to select all"
+msgstr "一键全选"
+
+#: ../src/volume/nfs_volume.c:357
+msgid "create data"
+msgstr "创建数据卷"
+
+#: ../src/volume/nfs_volume.c:358
+msgid "mount data"
+msgstr "挂载数据卷"
+
+#: ../src/volume/nfs_volume.c:359
+msgid "local data"
+msgstr "挂载本地目录"
+
+#: ../src/volume/nfs_volume.c:370
+msgid "Choice"
+msgstr "选择"
+
+#: ../src/volume/nfs_volume.c:578
+msgid "the name of datavolume container"
+msgstr "数据卷容器的名称"
+
+#: ../src/volume/nfs_volume.c:579 ../src/volume/nfs_volume.c:993
+msgid "select images"
+msgstr "选择镜像"
+
+#: ../src/volume/nfs_volume.c:580
+msgid "rebuild the datavolume"
+msgstr "重新创建数据卷"
+
+#. gtk_widget_set_tooltip_text(entry, "只能包含数字，字母以及\"-\",\"_\",\".\"");
+#: ../src/volume/nfs_volume.c:585
+msgid "it could only include number,letters and \"-\",\"_\",\".\""
+msgstr "只能包含数字,字母和\"-\",\"_\",\".\""
+
+#: ../src/volume/nfs_volume.c:613
+msgid "please choose the datavolume first！"
+msgstr "请先选择数据卷！"
+
+#: ../src/volume/nfs_volume.c:620
+msgid "there is no datavolume to choose, please create it first！"
+msgstr "没有数据卷可选择，请先创建数据卷！"
+
+#: ../src/volume/nfs_volume.c:650
+msgid "please input the name of datavolume container!!!"
+msgstr "请输入数据卷容器的名称！！！"
+
+#: ../src/volume/nfs_volume.c:798
+msgid "please choose the data you want to delete"
+msgstr "请选择你想要删除的数据卷"
+
+#: ../src/volume/nfs_volume.c:856 ../src/volume/nfs_volume.c:862
+msgid "please choose the data you want to open"
+msgstr "请选择你想要打开的数据卷"
+
+#: ../src/volume/nfs_volume.c:888 ../src/volume/nfs_volume.c:1545
+msgid "a key to cancel all"
+msgstr "一键取消"
+
+#: ../src/volume/nfs_volume.c:937
+msgid "the datavolume creates successfully!!"
+msgstr "数据卷创建成功！！"
+
+#: ../src/volume/nfs_volume.c:938
+msgid "whether to open datavolume？"
+msgstr "是否打开数据卷?"
+
+#: ../src/volume/nfs_volume.c:947
+#, c-format
+msgid "popen failed!  %s   %d"
+msgstr "打开失败! %s %d"
+
+#: ../src/volume/nfs_volume.c:991 ../src/volume/nfs_volume.c:1776
+msgid "select one or more datavolume"
+msgstr "选择一个或多个要迁移的数据卷"
+
+#: ../src/volume/nfs_volume.c:992
+msgid "the datavolume you have chosen to backup"
+msgstr "已经选择备份的数据卷"
+
+#: ../src/volume/nfs_volume.c:994
+msgid "input the name of new tar(no suffix)"
+msgstr "输入备份生成tar包的名称(不加后缀)"
+
+#: ../src/volume/nfs_volume.c:995
+msgid "please input the name of new directory"
+msgstr "请输入新目录的名称"
+
+#: ../src/volume/nfs_volume.c:996
+msgid "lookup the datavolume you have backuped"
+msgstr "查看已经备份的数据卷"
+
+#: ../src/volume/nfs_volume.c:997
+msgid "a key ro select all"
+msgstr "一键全选"
+
+#: ../src/volume/nfs_volume.c:1047
+msgid "Container Name"
+msgstr "数据卷容器名称"
+
+#: ../src/volume/nfs_volume.c:1048
+msgid "Create DataVolume"
+msgstr "创建数据卷"
+
+#: ../src/volume/nfs_volume.c:1049
+msgid "Mount DataVolume"
+msgstr "挂载数据卷"
+
+#: ../src/volume/nfs_volume.c:1050
+msgid "Local DataVolume"
+msgstr "挂载本地目录"
+
+#: ../src/volume/nfs_volume.c:1059 ../src/volume/nfs_volume.c:1450
+msgid "choice"
+msgstr "选择"
+
+#: ../src/volume/nfs_volume.c:1096
+msgid "backup successfully  ^_^"
+msgstr "备份成功^_^"
+
+#: ../src/volume/nfs_volume.c:1170
+msgid "you have chosen none, please choose first!"
+msgstr "你还没有任何选择，请先选择！"
+
+#: ../src/volume/nfs_volume.c:1183
+msgid "have none of datavolume, please create it first！"
+msgstr "没有任何数据卷，请先创建数据卷！"
+
+#: ../src/volume/nfs_volume.c:1277
+msgid "please input the name of tar!!!"
+msgstr "请输入tar包的名称！！！"
+
+#: ../src/volume/nfs_volume.c:1286
+msgid "the acronym of name could only be number or letter"
+msgstr "首字母只能是数字或者字母！"
+
+#: ../src/volume/nfs_volume.c:1297
+msgid "the name could only contains number,letter or underline"
+msgstr "名字只能包含数字，字母和下划线"
+
+#: ../src/volume/nfs_volume.c:1335
+msgid "the name exists, please change a name"
+msgstr "该名称已存在，请输入其它名称"
+
+#: ../src/volume/nfs_volume.c:1411
+msgid "recovery datavolume"
+msgstr "恢复数据卷"
+
+#: ../src/volume/nfs_volume.c:1413
+msgid "select one or more datavolume to recovery"
+msgstr "选择一个或多个要恢复的数据卷"
+
+#: ../src/volume/nfs_volume.c:1414
+msgid "the recovery datavolume you have chosen"
+msgstr "已经选择恢复的数据卷"
+
+#: ../src/volume/nfs_volume.c:1415 ../src/volume/nfs_volume.c:1778
+msgid "input the name of new container"
+msgstr "输入新容器的名称"
+
+#: ../src/volume/nfs_volume.c:1416
+msgid "look up the datavolume you have recoveried"
+msgstr "查看已经恢复的数据卷"
+
+#: ../src/volume/nfs_volume.c:1434
+msgid "have none datavolume to recovery, please backup first"
+msgstr "没有可用来恢复的数据卷，请先备份数据卷！"
+
+#: ../src/volume/nfs_volume.c:1440
+msgid "The name of tar"
+msgstr "tar包名称"
+
+#: ../src/volume/nfs_volume.c:1441
+msgid "DataVolume"
+msgstr "数据卷"
+
+#: ../src/volume/nfs_volume.c:1597
+msgid "datavolume recovery successfully ^_^"
+msgstr "数据卷恢复成功^_^"
+
+#: ../src/volume/nfs_volume.c:1618
+msgid "please choose the recovery datavolume first!"
+msgstr "请先选择要恢复的数据卷！"
+
+#: ../src/volume/nfs_volume.c:1620
+msgid "please choose the transfer datavolume first!"
+msgstr "请先选择要迁移的数据卷！"
+
+#: ../src/volume/nfs_volume.c:1644
+msgid "please input the name of datavolume container first!!!"
+msgstr "请先输入数据卷容器的名称！！！"
+
+#: ../src/volume/nfs_volume.c:1653
+msgid "you could input at most one name"
+msgstr "只能输入最多一个名称"
+
+#: ../src/volume/nfs_volume.c:1777
+msgid "the datavolume you have chosen"
+msgstr "已选择的数据卷"
+
+#: ../src/volume/nfs_volume.c:1779
+msgid "look up the datavolume that have transfered"
+msgstr "查看已经迁移的数据卷"
+
+#: ../src/volume/nfs_volume.c:1794
+msgid "have none datavolume to transfer, please backup first"
+msgstr "没有可用来迁移的数据卷，请先备份数据卷"
+
+#: ../src/volume/nfs_volume.c:1857
+msgid "please input the name of new directory!!!"
+msgstr "请输入新目录的名称！！！"
+
+#: ../src/volume/nfs_volume.c:1926
+msgid "look up all datavolumes"
+msgstr "查看全部数据卷"
+
+#~ msgid "new_build_Docker_file"
+#~ msgstr "新建Dockerfile文件"
+
+#~ msgid "please input only one name!!!"
+#~ msgstr "请只输入一个名称！！！"
+
+#~ msgid "have a try\n"
+#~ msgstr "尝试\n"

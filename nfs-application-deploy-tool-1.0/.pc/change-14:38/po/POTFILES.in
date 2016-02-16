@@ -1,0 +1,27 @@
+# List of source files containing translatable strings.
+
+src/assistant/nfs_assistant.h
+src/assistant/nfs_assistant.c
+src/container/nfs_container_manage.c
+src/container/nfs_container_manage.h
+src/dockerfile/nfs_dockerfile_manage.c
+src/dockerfile/nfs_dockerfile_manage.h
+src/global/global.c
+src/global/global.h
+src/image/nfs_image.c
+src/image/nfs_image.h
+src/link/nfs_link.c
+src/link/nfs_link.h
+src/link/nfs_plink.c
+src/link/nfs_plink.h
+src/manage/nfs-application-deploy-tool.c
+src/manage/nfs-application-deploy-tool.h
+src/module/nfs_command_information_modules.c
+src/module/nfs_command_information_modules.h
+src/module/nfs_docker-modules.c
+src/module/nfs_docker-modules.h
+src/terminal/nfs_terminal.c
+src/volume/nfs_volume.c
+src/volume/nfs_volume.h
+
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=应用部署工具
+GenericName=nadt
+Comment=package docker command
+Exec=nadt-pkexec
+Icon=/usr/share/pixmaps/nadt_32.png
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings

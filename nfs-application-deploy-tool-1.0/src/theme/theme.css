@@ -1,0 +1,192 @@
+/*
+.button:nth-child(2){
+background:yellow;
+font-size:200%;
+}*/
+
+@keyframes  myfirst
+{
+from {background: red;}
+to   {background: yellow;}
+}
+
+@binding-set set1
+{
+bind "<alt>Left" {"move-cursor" (visual-positions, 2, 0)};
+unbind "End";
+}
+
+*
+{
+font-size:105%;
+}
+
+/*
+@bg_color #f9a039;
+@entry-color shade (@bg_color, 0.7);
+*/
+GtkWindow
+{
+background-image:-gtk-gradient(linear,left top, right bottom,  from(#d0f8d0),to(#d0f8d0));
+}
+
+#image_window, #volume_window{
+font-family:Verdana;
+font-style:italic ;
+font-weight:bold;
+/*font-size:200%;*/
+/*background-image:url("/home/gll/git/nfs-application-deploy-tool/src/jpg/3c2e384bbd71e2428052e75f5d6f4274.jpg");*/
+background-image:-gtk-gradient(linear,left top, right bottom,  from(#d0f8d0),to(#d0f8d0));
+/*background-image:-gtk-gradient(radial, 0 0 , 0, 0 1, 0, color-stop(0,yellow), 
+						 color-stop(0.2,blue), color-stop(1,green));*/
+/*background-image:-gtk-gradient(radial, center center , 0, center center, 1, 
+						 from(yellow), to(green));*/
+/*background-image:-gtk-gradient(radial, 0.4 0.4,0.1,   0.6 0.6,0.7,  color-stop(0,red), 
+					color-stop(0.1, green), color-stop(0.5,yellow), color-stop(1,blue));*/
+/*background-size:600px,450px;*/
+background-position:50%,50%;
+/*transform:scale(2,2);
+transform:rotate(30deg);*/
+}
+
+#image_window GtkButton, #volume_window GtkButton
+{
+background-color:yellow;
+border-style:solid;
+border-width:5px; 
+border-radius:25px;
+/*box-shadow: 20px 20px 20px #00ff00;*/
+/*animation: myfirst  5s infinite;*/
+}
+
+GtkEntry
+{
+/*
+background-color:mix(@entry-color,
+						shade (#fff, 0.5),
+						0.8);
+*/
+gtk-key-bindings: set1;
+}
+
+#image_window GtkButton:hover, #volume_window GtkButton:hover
+{
+background:red;
+padding:0.5cm 0.2cm 0.5cm 0.2cm;
+font-size:125%;
+/*column-gap: 40px;*/
+/*border-image:url("/home/gll/git/nfs-application-deploy-tool/src/jpg/c00c46e2fbe6149b688e7a02166d2dc9.jpg")
+					 10 10 10 10 stretch; *//*repeat*/
+}
+
+#image_window GtkButton:focused, #volume_window GtkButton:focused
+{
+background:gray;
+}
+
+#window_command_modules_css {
+
+	background-size: 20px 20px;
+	font-size:110%;
+}
+
+#window_command_modules_css GtkButton:hover {
+		
+	padding:5px 3px;
+	text-shadow: 12px 12px 12px alpha(black, 0.75);
+	icon-shadow: 12px 12px 12px alpha(black, 0.75);
+    box-shadow: 12px 12px 12px alpha(black, 0.5) inset;
+    border: solid 1px alpha(black, 0.75);
+	border-radius:10px;
+	font-size:115%;
+	background:alpha(black, 0.3);
+
+}
+
+#window_command_modules_css GtkButton{
+		 border-radius:15px;
+
+}
+#window_command_modules_css #input_entry11{
+	border:1px dotted #ff0000;
+	border-radius:50px;
+}
+
+#nfs_container_mange_window{
+	background-size: 20px 20px;
+        font-size:110%;
+}
+#nfs_container_mange_window GtkTreeView{
+	border:1px solid #050;
+	font-size:130%;
+}
+
+
+#nfs_container_mange_window GtkListStore:focus{
+		padding:12px 8px;
+        text-shadow: 12px 12px 12px alpha(black, 0.75);
+        icon-shadow: 12px 12px 12px alpha(black, 0.75);
+        box-shadow: 12px 12px 12px alpha(black, 0.5) inset;
+        border: solid 1px alpha(black, 0.75);
+        border-radius:10px;
+        font-size:115%;
+        background:alpha(black, 0.3);
+
+}
+
+#nfs_dockerfile_manage {
+	background-size: 20px 20px;
+        font-size:150%;
+
+}
+#nfs_dockerfile_manage GtkScrolledWindow {
+
+              border: 1px solid;
+}
+#nfs_dockerfile_manage GtkMenuItem {
+
+        background-size: 20px 20px;
+}
+#nfs_dockerfile_manage GtkMenuItem:hover {
+
+        padding: 12px 8px;
+        text-shadow: 12px 12px 12px alpha(black, 0.75);
+        icon-shadow: 12px 12px 12px alpha(black, 0.75);
+        box-shadow: 12px 12px 12px alpha(black, 0.5) inset;
+        border: solid 1px alpha(black, 0.75);
+        border-radius:10px;
+        font-size:115%;
+}
+#nfs_dockerfile_manage GtkButton:hover {
+
+        text-shadow: 3px 3px 5px alpha(black, 0.75);
+        icon-shadow: 3px 3px 5px alpha(black, 0.75);
+        box-shadow: 3px 3px 5px alpha(black, 0.5) inset;
+        border: solid 1px alpha(black, 0.75);
+}
+
+#window_modules_css {
+
+	background-size: 20px 20px;
+	font-size:110%;
+}
+
+	
+
+#window_modules_css GtkMenuItem:hover {
+
+	padding: 12px 8px;
+	text-shadow: 12px 12px 12px alpha(black, 0.75);
+  	icon-shadow: 12px 12px 12px alpha(black, 0.75);
+  	box-shadow: 12px 12px 12px alpha(black, 0.5) inset;
+  	border: solid 1px alpha(black, 0.75);
+	border-radius:10px;
+	font-size:115%;
+}
+#window_modules_css GtkButton:hover {
+		
+	text-shadow: 3px 3px 5px alpha(black, 0.75);
+	icon-shadow: 3px 3px 5px alpha(black, 0.75);
+        box-shadow: 3px 3px 5px alpha(black, 0.5) inset;
+        border: solid 1px alpha(black, 0.75);
+}

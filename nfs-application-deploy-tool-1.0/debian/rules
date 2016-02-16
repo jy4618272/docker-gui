@@ -1,0 +1,26 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@  --with autotools-dev
+
+override_dh_compress:
+	dh_compress -X.ui
+
+override_dh_installdocs:
+	dh_installdocs
+	cp -r debian/nfs-application-deploy-tool/usr/share/doc/nfs_application_deploy_tool \
+	debian/nfs-application-deploy-tool/usr/share/
+	mv debian/nfs-application-deploy-tool/usr/share/nfs_application_deploy_tool \
+	debian/nfs-application-deploy-tool/usr/share/nadt
+	cp -r src/ui debian/nfs-application-deploy-tool/usr/share/nadt/
+	cp -r src/theme debian/nfs-application-deploy-tool/usr/share/nadt/
+	mkdir debian/nfs-application-deploy-tool/usr/share/pixmaps
+	cp src/icon/nadt_32.png debian/nfs-application-deploy-tool/usr/share/pixmaps
+	mkdir debian/nfs-application-deploy-tool/usr/share/applications
+	cp debian/nadt.desktop debian/nfs-application-deploy-tool/usr/share/applications
+	cp debian/nadt-pkexec debian/nfs-application-deploy-tool/usr/bin
+	mv debian/nfs-application-deploy-tool/usr/bin/nfs_application_deploy_tool debian/nfs-application-deploy-tool/usr/bin/nadt
